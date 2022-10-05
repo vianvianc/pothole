@@ -8,7 +8,8 @@
     "dev": "./node_modules/nodemon/bin/nodemon.js -e ts  --exec \"npm run compile\"",
     "test": "echo \\\"Error: no src/test specified\\\" && exit 1",
     "clean": "ts-standard --fix",
-    "lint": "ts-standard"
+    "lint": "ts-standard",
+    "start": "ts-node ./src/index.ts"
   },
   "keywords": [],
   "author": "Vian Charbonneau",
